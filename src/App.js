@@ -34,7 +34,7 @@ function App() {
         text,
         checked: false,
       };
-      setTodos(todos.concat(todos));
+      setTodos(todos.concat(todo));
       nextId.current += 1; // nextId 1씩 더하기
     },
     [todos],
